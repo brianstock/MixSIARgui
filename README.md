@@ -12,7 +12,9 @@ library(MixSIARgui)
 mixsiar_gui()
 ```
 
-![MixSIAR GUI.](https://github.com/brianstock/MixSIAR/blob/master/Manual/mixsiar_gui_shot.png){ width=80% }
+![MixSIAR GUI.](https://github.com/brianstock/MixSIAR/blob/master/Manual/mixsiar_gui_shot.png)
+
+<img src="https://github.com/brianstock/MixSIAR/blob/master/Manual/mixsiar_gui_shot.png" width="100" height="150">
 
 There is an extensive user manual included in the package install. To find the directory location on your computer:
 ```
