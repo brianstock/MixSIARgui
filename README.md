@@ -13,7 +13,7 @@ mixsiar_gui()
 ```
 
 <p align="center">
-  <img width="420" height="500" src="https://raw.githubusercontent.com/brianstock/MixSIAR/master/Manual/mixsiar_gui_shot.png">
+  <img width="450" height="500" src="https://raw.githubusercontent.com/brianstock/MixSIAR/master/Manual/mixsiar_gui_shot.png">
 </p>
 
 There is an extensive user manual included in the package install. To find the directory location on your computer:
@@ -40,22 +40,22 @@ The GUI requires GTK+ to be installed, and the instructions are platform-specifi
 
 5. Load `RGtk2`. You will be prompted to install GTK+. **Follow the automatic prompts and do not interrupt the GTK+ installation!**:
 
-```
-library(RGtk2)
-```
+  ```
+  library(RGtk2)
+  ```
 
 6. Restart R and run:
 
-```
-devtools::install_github("brianstock/MixSIARgui", dependencies=T) # installs MixSIAR as dependency
-```
+  ```
+  devtools::install_github("brianstock/MixSIARgui", dependencies=T) # installs MixSIAR as dependency
+  ```
 
 7. Load MixSIAR and run GUI:
 
-```
-library(MixSIARgui) # also loads MixSIAR
-mixsiar_gui()
-```
+  ```
+  library(MixSIARgui) # also loads MixSIAR
+  mixsiar_gui()
+  ```
 
 #### Mac
 
@@ -63,29 +63,34 @@ mixsiar_gui()
 2. Download and install [JAGS].
 3. Open R. 
 4. Install GTK+ dependent R packages:
-```
-install.packages(c("gWidgets", "RGtk2", "gWidgetsRGtk2", "devtools"))
-```
+  ```
+  install.packages(c("gWidgets", "RGtk2", "gWidgetsRGtk2", "devtools"))
+  ```
 5. Close R.
 6. Download and install the newest [GTK+ framework].
 7. Install the latest X11 application, [xQuartz].
 8. Open R and run:
-```
-devtools::install_github("brianstock/MixSIARgui", dependencies=T) # installs MixSIAR as dependency
-```
+  ```
+  devtools::install_github("brianstock/MixSIARgui", dependencies=T) # installs MixSIAR as dependency
+  ```
 9. Load MixSIAR and run GUI:
-```
-library(MixSIARgui) # also loads MixSIAR
-mixsiar_gui()
-```
+  ```
+  library(MixSIARgui) # also loads MixSIAR
+  mixsiar_gui()
+  ```
 
-If the above steps do not work, try information in the links below. The goal is to install and load `RGtk2` without problems.
+If the above steps do not work, try information in the links below. The goal is to install and run `library(RGtk2)` without problems.
 
 https://github.com/davidcsterratt/retistruct/issues/4
+
 http://marcoghislanzoni.com/blog/2014/08/29/solved-installing-rattle-r-3-1-mac-os-x-10-9/
+
 https://gist.github.com/sebkopf/9405675
+
 https://yihui.org/en/2018/01/install-rgtk2-macos/
+
 https://gist.github.com/zhiyzuo/a489ffdcc5da87f28f8589a55aa206dd
+
 
 #### Linux
 
@@ -94,22 +99,22 @@ https://gist.github.com/zhiyzuo/a489ffdcc5da87f28f8589a55aa206dd
 3. Download and install [GTK+ framework]. From the terminal: `sudo apt-get install libgtk2.0-dev`.
 4. Check if GTK+ is installed correctly. Open R, install and load the `RGtk2` package with:
 
-```
-install.packages("RGtk2","devtools")
-library(RGtk2)
-```
+  ```
+  install.packages("RGtk2","devtools")
+  library(RGtk2)
+  ```
 
 5. Install `MixSIAR` and `MixSIARgui`:
 
-```
-devtools::install_github("brianstock/MixSIARgui", dependencies=T) # installs MixSIAR as dependency
-```
+  ```
+  devtools::install_github("brianstock/MixSIARgui", dependencies=T) # installs MixSIAR as dependency
+  ```
 
 6. Load MixSIAR and run GUI:
-```
-library(MixSIARgui) # also loads MixSIAR
-mixsiar_gui()
-```
+  ```
+  library(MixSIARgui) # also loads MixSIAR
+  mixsiar_gui()
+  ```
 
 ### Feedback
 
