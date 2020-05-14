@@ -13,7 +13,7 @@ mixsiar_gui()
 ```
 
 <p align="center">
-  <img width="350" height="500" src="https://raw.githubusercontent.com/brianstock/MixSIAR/master/Manual/mixsiar_gui_shot.png">
+  <img width="420" height="500" src="https://raw.githubusercontent.com/brianstock/MixSIAR/master/Manual/mixsiar_gui_shot.png">
 </p>
 
 There is an extensive user manual included in the package install. To find the directory location on your computer:
