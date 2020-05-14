@@ -81,16 +81,11 @@ The GUI requires GTK+ to be installed, and the instructions are platform-specifi
 
 If the above steps do not work, try information in the links below. The goal is to install and run `library(RGtk2)` without problems.
 
-https://github.com/davidcsterratt/retistruct/issues/4
-
-http://marcoghislanzoni.com/blog/2014/08/29/solved-installing-rattle-r-3-1-mac-os-x-10-9/
-
-https://gist.github.com/sebkopf/9405675
-
-https://yihui.org/en/2018/01/install-rgtk2-macos/
-
-https://gist.github.com/zhiyzuo/a489ffdcc5da87f28f8589a55aa206dd
-
+  - https://github.com/davidcsterratt/retistruct/issues/4
+  - http://marcoghislanzoni.com/blog/2014/08/29/solved-installing-rattle-r-3-1-mac-os-x-10-9/
+  - https://gist.github.com/sebkopf/9405675
+  - https://yihui.org/en/2018/01/install-rgtk2-macos/
+  - https://gist.github.com/zhiyzuo/a489ffdcc5da87f28f8589a55aa206dd
 
 #### Linux
 
