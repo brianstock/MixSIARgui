@@ -1,0 +1,31 @@
+Package: MixSIARgui
+Title: A graphical user interface (GUI) for MixSIAR
+Version: 1.0.0
+Authors@R: 
+    person(given = "Brian",
+           family = "Stock",
+           role = c("aut", "cre"),
+           email = "bstock09@gmail.com",
+           comment = c(ORCID = "0000-0002-2393-6747"))
+Description: Creates a graphical user interface (GUI) for the 'MixSIAR' package.
+	The GTK-based R packages that the MixSIAR GUI depends on are no longer
+	supported on CRAN, so for 'MixSIAR' to remain on CRAN it was necessary to split 
+	the GUI off into its own package to remain on GitHub. 'MixSIAR' is a framework
+	to run Bayesian mixing models to analyze biological tracer data (i.e. stable 
+	isotopes, fatty acids), which estimate the proportions of source (prey) 
+	contributions to a mixture (consumer). 'MixSIAR' is not one model, but a framework 
+	that allows a user to create a mixing model based on their data structure and 
+	research questions, via options for fixed/random effects, source data types, 
+	priors, and error terms.
+Depends:
+    R (>= 3.6.0)
+Imports:
+    MixSIAR (>= 3.1.11),
+    gWidgets (>= 0.0-54),
+    gWidgetsRGtk2 (>= 0.0-86)
+SystemRequirements: JAGS (>= 4.3) and GTK+
+BugReports: https://github.com/brianstock/MixSIARgui/issues
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+VignetteBuilder: knitr
